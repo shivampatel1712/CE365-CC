@@ -33,7 +33,5 @@ int main(){
      printf("Enter the string a*bb : ");
      scanf("%s", str);
 
-     // printf("%s", str);
-     // printf("%ld", strlen(str));
      validateString(str, strlen(str));
 }
