@@ -22,7 +22,7 @@ bool isKeyword(const string &str)
 
 bool isIdentifierChar(char ch, bool isStart)
 {
-    return (isStart ? isalpha(ch) || ch == '_' : isalnum(ch) || ch == '_');
+    return (isStart ? isalpha(ch) || ch == '' : isalnum(ch) || ch == '');
 }
 
 bool isOperator(char ch)

@@ -80,5 +80,6 @@ int main(){
      if(validateString(Entries, initialState, acceptingState, inputSymbol, inputStr)) printf("Valid string. \n");
      else printf("Invalid string. \n");
 
+     //https://www.geeksforgeeks.org/how-to-create-dynamic-array-of-structs-in-c/
      return 0;
 }
